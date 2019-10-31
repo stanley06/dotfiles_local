@@ -2,4 +2,4 @@
 Host github
     User git
     Hostname github.com
-    IdentityFile /home/name/.ssh/github_key
+    IdentityFile /home/name/.ssh/id_rsa

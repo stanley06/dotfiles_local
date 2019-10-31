@@ -14,6 +14,10 @@
 # ssh-copy-id -i .ssh/test.pub name@domain # append test.pub key into remote .ssh/authorized_keys
 # ssh-add .ssh/test # make sure the private key is added to the ssh agent
 
+alias k='kubectl'
+alias kt='kubectl -n tumblr'
+alias kc='kubectl -n cig'
+
 alias dssh='ssh sli02@sli02.bf2.tumblr.net'
 
 echo "zsh_local_after run"
